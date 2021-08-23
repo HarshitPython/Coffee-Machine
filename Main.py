@@ -76,6 +76,7 @@ is_on = True
 while is_on:
 #1.Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
     choice = input("​What would you like? (espresso/latte/cappuccino): ")
+    
     if choice == "off":
         is_on = False
     elif choice == "report":
