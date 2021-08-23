@@ -83,6 +83,7 @@ while is_on:
         is_on = False
     elif choice == "report":
 #3. Print report.        
+
         print(f"Water: {resources['water']}ml")
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffee: {resources['coffee']}g")
