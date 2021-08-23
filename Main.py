@@ -78,6 +78,8 @@ while is_on:
     choice = input("​What would you like? (espresso/latte/cappuccino): ")
     
     if choice == "off":
+#2. Turn off the Coffee Machine by entering “off” to the prompt.
+
         is_on = False
     elif choice == "report":
         print(f"Water: {resources['water']}ml")
